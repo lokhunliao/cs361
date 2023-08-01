@@ -1,4 +1,4 @@
-<img width="888" alt="Screenshot 2023-07-31 at 6 58 17 PM" src="https://github.com/lokhunliao/cs361/assets/35357272/8b4aa367-6d69-45c3-9404-f05cafaa0a39"># cs361
+# cs361
 
 * Clear instructions for how to programmatically REQUEST data from the microservice you implemented. Include an example call.
 
