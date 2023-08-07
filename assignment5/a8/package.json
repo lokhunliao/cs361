@@ -1,15 +1,14 @@
 {
-  "name": "workour",
+  "name": "a8",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "luke",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.3.0",
-    "flask": "^0.2.10"
+    "pandas": "0.0.3"
   }
 }

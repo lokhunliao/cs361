@@ -1,0 +1,36 @@
+//  body of request for an edge list
+{
+    // these will always have three properties: file, type, and stats
+
+    "file" : "sampleGraph.csv",     // this is the name of the target file. Example data is under "input" dir of my project, if you would like them
+
+    "type" : "edge-list",           // this is the type, which can be either "norm-dist", "xy-graph", or "edge-list"
+
+    "stats" : [                     // this is shown below are all possible options that could be sent. When the program is
+        "num-of-vertices",          //      in use, any number of these options could show up under "stats".
+        "num-of-edges",
+        "vertex-connectivity",
+        "edge-connectivity",
+        "graph-density"
+    ]
+
+    // Since this request is asking for information about an edge list, networkx can be used. sampleCode.py has code for 
+    // converting a dataframe into a networkx graph.
+}
+
+// body of request for anything else
+{
+    "file" : "microbeersW23.csv",   // name of target file
+
+    "type" : "norm-dist",           // in the microservice, a dataframe should suffice for calculating stats of both
+                                    // "norm-dist" and "xy-graph". No need to use networkx.
+
+    "stats" : [                     // here are all possible options that could show up for non "edge-list" types.
+        "std-dev",  // this stands for standard deviation
+        "variation",
+        "mean",
+        "median",
+        // "line-best-fit" can also show up here for "xy-graph. This source uses Numpy to get the line of best fit:
+        // https://stackoverflow.com/questions/37234163/how-to-add-a-line-of-best-fit-to-scatter-plot
+    ]
+}
