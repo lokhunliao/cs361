@@ -7,6 +7,8 @@ from flask_cors import CORS
 import scipy.stats as stats
 import pandas as pd
 import networkx as nx
+import numpy as np
+
 
 app = Flask(__name__)
 CORS(app)
@@ -48,8 +50,9 @@ def handle_response():
         if "median" in message['stats']:
             output.append(["median", data.median(0)])
 
-        # if "line-best-fit" in message['stats']:
-            
+        if "line-best-fit" in message['stats']:
+            output.append(list(np.polyfit(data.index, data, 1)))
+
 
     if (message["type"] == "edge-list"): # types that are an edge list must be converted to a graph
 
