@@ -57,7 +57,7 @@ def handle_response():
     if (message["type"] == "edge-list"): # types that are an edge list must be converted to a graph
 
         # assume first column is for sources and second column is for targets
-        reader = pd.read_csv('simpleData.csv', chunksize=10)
+        reader = pd.read_csv(message['file'], chunksize=10)
         df = pd.concat(reader, ignore_index=True)
         graph = nx.from_pandas_edgelist(df, source=df.columns[0], target=df.columns[1])
 
@@ -68,13 +68,13 @@ def handle_response():
             output.append(['numOfEdges', graph.number_of_edges()])
 
         if 'vertex-connectivity' in message['stats']:
-            output.append(['vertex-connectivity', graph.vertex_connectivity()])
+            output.append(['vertex-connectivity', nx.node_connectivity(graph)])
         
         if 'edge-connectivity' in message['stats']:
-            output.append(['edge-connectivity', graph.edge_connectivity()])
+            output.append(['edge-connectivity', nx.edge_connectivity(graph)])
 
         if 'graph-density' in message['stats']:
-            output.append(['graph-density', graph.graph_density()])
+            output.append(['graph-density', nx.density(graph)])
 
     # return output
     return {"stats" : output}
