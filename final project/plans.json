@@ -1,0 +1,283 @@
+{
+    "workouts": [
+        {
+            "time":"15",
+            "level": "easy",
+            "calories": 100,
+            "plan": {
+                "workouts":[
+                    {"Warming Up": "1 minute"},
+                    {"Step Behind Step Clap": "1 minute"},
+                    {"1st Floor Exercise": "1 minute"},
+                    {"2nd Floor Exercise": "1 minute"},
+                    {"Chair Squat": "1 minute"},
+                    {"Chair Touch": "1 minute"},
+                    {"3rd Floor Exercise": "1 minute"},
+                    {"4th Floor Exercise": "1 minute"},
+                    {"Chair Push Up": "1 minute"},
+                    {"Side Plank": "1 minute"},
+                    {"Floor Twist Exercise":""},
+                    {"Squat Punch & Twist": "1 minute"},
+                    {"Lunge": "1 minute"},
+                    {"Hover & Kick": "1 minute"},
+                    {"Cooldown": "1 minute"}
+                ] 
+            }
+        },
+        {
+            "time":"15",
+            "level": "medium",
+            "calories": 150,
+            "plan": {
+                "workouts":[
+                    {"Squat": "2 minutes"},
+                    {"Push-up": "1 minute"},
+                    {"Forearm side plank": "2 minutes"},
+                    {"Lunge": "1 minute"},
+                    {"Shoulder-tap blast-off": "2 minutes"},
+                    {"Glute bridge": "2 minutes"},
+                    {"Crab walk": "2 minutes"},
+                    {"High knees": "2 minutes"},
+                    {"Cooldown": "1 minute"}
+                ] 
+            }
+        },
+        {
+            "time":"15",
+            "level": "hard",
+            "calories": 180,
+            "plan": {
+                "workouts":[
+                    {"Circuit 1 Jump Jacks": "4 minutes"},
+                    {"Circuit 2 Jump Jacks": "4 minutes"},
+                    {"Circuit 3 modified Pushups": "4 minutes"},
+                    {"Circuit 4 Reverse Lunges": "4 minutes"}
+                ] 
+            }
+        },
+        {
+            "time":"30",
+            "level": "easy",
+            "calories": 180,
+            "plan": {
+                "workouts":[
+                    {"Plank": "3 minutes"},
+                    {"Reverse Bridge": "3 minutes"},
+                    {"Table top": "3 minutes"},
+                    {"Reverse Lunge with a Kickback": "3 minutes"},
+                    {"Circuit Number one": "3 minutes"},
+                    {"Glute Bridges": "3 minutes"},
+                    {"Leg Drops": "3 minutes"},
+                    {"Table Top": "3 minutes"},
+                    {"Taps": "3 minutes"},
+                    {"Kickbacks": "3 minutes"}
+                ] 
+            }
+        },
+        {
+            "time":"30",
+            "level": "medium",
+            "calories": 250,
+            "plan": {
+                "workouts":[
+                    {"Warming up":"30 Seconds"},
+                    {"Squats Lifting the Arms Up Overhead":"2 minutes"},
+                    {"Walkout to a Push-up":"2 minutes"},
+                    {"Knee Lift Up with a Rotation":"3 minutes"},
+                    {"Jumping Jacks":"1 minutes"},
+                    {"REST":"30 Seconds"},
+                    {"Hip Rotation":"3 minutes"},
+                    {"Round One Circuit":"2 minutes"},
+                    {"Squats":"2 minutes"},
+                    {"Squat Jump":"3 minutes"},
+                    {"High Knees":"2 minutes"},
+                    {"REST":"30 Seconds"},
+                    {"Plank":"3 minutes"},
+                    {"Baby Plank":"2 minutes"},
+                    {"Cardio":"3 minutes"},
+                    {"Cooldown": "30 Seconds"}
+                ] 
+            }
+        },
+        {
+            "time":"30",
+            "level": "hard",
+            "calories": 310,
+            "plan": {
+                "workouts":[
+                    {"Touch Down& Up": "1 minute"},
+                    {"Squat Punch": "1 minute"},
+                    {"Inch Worm": "1 minute"},
+                    {"REST":"20 Seconds"},
+                    {"High plank To Down Dog": "1 minute"},
+                    {"Knee Up Crunch": "1 minute"},
+                    {"Leg Raise Reverse Crunch": "1 minute"},
+                    {"Hip Raise Hell Touch": "1 minute"},
+                    {"Slow Ab Bike": "2 minute"},
+                    {"Lying Elobow Knee Touch": "1 minute"},
+                    {"REST":"20 Seconds"},
+                    {"Arm Fly": "1 minute"},
+                    {"Wing Fly Chop": "2 minute"},
+                    {"Knee Push Up":"1 minute"},
+                    {"Commando":"1 minute"},
+                    {"Air Squat":"2 minute"},
+                    {"Front and Back Lunge(R)":"1 minute"},
+                    {"Front and Back Lunge(L)":"1 minute"},
+                    {"REST":"20 Seconds"},
+                    {"Fire Hydrant":"1 minute"},
+                    {"Single Leg Plank":"1 minute"},
+                    {"Side Plank":"2 minute"},
+                    {"Outer Leg Lift_ Circle(R)":"1 minute"},
+                    {"Outer Leg Lift_ Circle(L)":"1 minute"},
+                    {"Inner Lift":"1 minute"},
+                    {"Side Lunge":"1 minute"},
+                    {"Sumo Squat Pulses":"1 minute"},
+                    {"Cooldown": "1 minute"}
+                ] 
+            }
+        },
+        {
+            "time":"45",
+            "level": "easy",
+            "calories": 310,
+            "plan": {
+                "workouts":[
+                    {"Warmup (brisk walk or jog)": "5 minutes"},
+                    {"1. Push-ups":"1 minute"},
+                    {"2. Sit-ups":"1 minute"},
+                    {"3. Air squats":"1 minute"},
+                    {"4. Glute bridges":"1 minute"},
+                    {"5. REST":"30 Seconds"},
+                    {"Repeat 8 times of exercises 1- 5": "35 minutes"}
+                ] 
+            }
+        },
+        {
+            "time":"45",
+            "level": "medium",
+            "calories": 350,
+            "plan": {
+                "workouts":[
+                    {"Standing Rainbows":"1 minute and 30 Seconds"},
+                    {"Knee Tap + Toe Tap":"1 minute and 30 Seconds"},
+                    {"Side Step + Curtsy Right Leg":"30 Seconds"},
+                    {"Side Step + Curtsy Left Leg":"30 Seconds"},
+                    {"Side Step Predator Jacks":"1 minute and 30 Seconds"},
+                    {"Silent Half Burpees":"1 minute and 30 Seconds"},
+                    {"Reverse Lunge + Knee Drive Right Leg":"30 Seconds"},
+                    {"Reverse Lunge + Knee Drive Left Leg":"30 Seconds"},
+                    {"Reach Up + Down":"1 minute and 30 Seconds"},
+                    {"Leg Raise + Climber Right Leg":"30 Seconds"},
+                    {"Leg Raise + Climber Left Leg":"30 Seconds"},
+                    {"Alternating Curtsy Lunges":"1 minute and 30 Seconds"},
+                    {"Low Skater + Floor Touch":"1 minute and 30 Seconds"},
+                    {"Squat + Reach":"1 minute and 30 Seconds"},
+                    {"Overhead Squat Pulses":"1 minute and 30 Seconds"},
+                    {"Kick Through":"1 minute and 30 Seconds"},
+                    {"Push Up + Toe Tap":"1 minute and 30 Seconds"},
+                    {"Plank Front + Back Walk":"1 minute and 30 Seconds"},
+                    {"Superman Pull Down":"1 minute and 30 Seconds"},
+                    {"Low Plank Dips":"1 minute and 30 Seconds"},
+                    {"Crab Toe Taps":"1 minute and 30 Seconds"},
+                    {"Straight Leg Sit Ups":"1 minute and 30 Seconds"},
+                    {"Side Plank Dip + Reach Left Side":"30 Seconds"},
+                    {"Side Plank Dip + Reach Right Side":"30 Seconds"},
+                    {"Standing Stars":"1 minute and 30 Seconds"},
+                    {"Silent Burpees + Push Up":"1 minute and 30 Seconds"},
+                    {"Squat + Diagonal Crunch":"1 minute and 30 Seconds"},
+                    {"Silent One Arm Burpee Right Arm":"30 Seconds"},
+                    {"Knee Downs":"1 minute and 30 Seconds"},
+                    {"Silent One Arm Burpee Left Arm":"30 Seconds"},
+                    {"Halo Slams":"1 minute and 30 Seconds"},
+                    {"Diagonal Climbers":"1 minute and 30 Seconds"},
+                    {"Sumo Thrusters":"1 minute and 30 Seconds"},
+                    {"Sumo Pulses":"1 minute and 30 Seconds"},
+                    {"No Jumping Surfers":"1 minute and 30 Seconds"}
+                ] 
+            }
+        },
+        {
+            "time":"45",
+            "level": "hard",
+            "calories": 400,
+            "plan": {
+                "workouts":[
+                    {"Squat Crunch":"3 minutes"},
+                    {"Running Lunge - Right Leg":"2 minutes"},
+                    {"Running Lunge - Left Leg":"2 minutes"},
+                    {"Squat Calf Raises":"3 minutes"},
+                    {"ROtational Push UpS":"3 minutes"},
+                    {"Shoulder Taps":"3 minutes"},
+                    {"REST":"30 Seconds"},
+                    {"Side Plank Crunches - Left Side":"2 minutes"},
+                    {"Side Plank Crunches - Right Side ":"2 minutes"},
+                    {"Bear Crawl": "3 minutes"},
+                    {"Split Squats - Left Leg": "3 minutes"},
+                    {"Split Squats - right Leg": "3 minutes"},
+                    {"Sprinter Sit Up":"3 minutes"},
+                    {"REST":"30 Seconds"},
+                    {"Single Single Double Lowers":"3 minutes"},
+                    {"Tuck Hold":"3 minutes"},
+                    {"Tricep Stretch - Left Arm":"3 minutes"},
+                    {"Tricep Stretch - Right Arm":"3 minutes"}
+                ] 
+            }
+        },
+        {
+            "time":"60",
+            "level": "easy",
+            "calories": 410,
+            "plan": {
+                "workouts":[
+                    {"Warm up - light jog or brisk walk": "10 minutes"},
+                    {"1. squats":"1 minute"},
+                    {"2. Press ups":"1 minute"},
+                    {"3. Lunges on Left leg":"1 minute"},
+                    {"4. Lunges on Right leg":"1 minute"},
+                    {"5. Bent over row":"1 minute"},
+                    {"6. Hip thrusts":"1 minute"},
+                    {"7. REST":"30 Seconds"},
+                    {"Repeat 10 times of exercises 1 - 6 " : "50 minutes" }
+                ] 
+            }
+        },
+        {
+            "time":"60",
+            "level": "medium",
+            "calories": 480,
+            "plan": {
+                "workouts":[
+                    {"Warm up - light jog or brisk walk": "10 minutes"},
+                    {"1. Dumbbell squats":"1 minute"},
+                    {"2. Mountain climbers":"1 minute"},
+                    {"3. Dumbbell chest press on bench":"1 minute"},
+                    {"4. Back raises":"1 minute"},
+                    {"5. Plank":"1 minute"},
+                    {"6. REST":"30 Seconds"},
+                    {"Repeat 10 times of exercises 1 - 6 " : "50 minutes" }
+                ] 
+            }
+        },
+        {
+            "time":"60",
+            "level": "hard",
+            "calories": 510,
+            "plan": {
+                "workouts":[
+                    {"Warm up - light jog or brisk walk": "10 minutes"},
+                    {"1. Bodyweight squats":"1 minute"},
+                    {"2. Mountain climbers":"1 minute"},
+                    {"3. Kettlebell swings":"1 minute"},
+                    {"4. Ab bikes":"1 minute"},
+                    {"5. Alternating lunge":"1 minute"},
+                    {"6. Sit up touching knees":"1 minute"},
+                    {"7. Burpees":"1 minute"},
+                    {"8. Leg raises":"1 minute"},
+                    {"9. Plank from knees":"1 minute"},
+                    {"10. REST":"30 Seconds"},
+                    {"Repeat 5 times of exercises 1 - 10 " : "50 minutes" }
+                ] 
+            }
+        }
+    ]
+}

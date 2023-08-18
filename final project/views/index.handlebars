@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CS361 Assignment 6</title>
+        <script type="module" src="/client.js" charset="utf-8" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+        <script src="indexTemplate.js"></script>
+        <script src="https://d3js.org/d3.v4.js"></script>
+
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <ul class="nav nav-underline justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/explore">Exploration</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/help">Help</a>
+        </li>
+      </ul>
+      <br/>
+
+      <div class="container text-center border-bottom border-dark">
+        <div class="row align-items-start">
+        <div class="col">
+            <div class="container ">
+                <div class="p-3 mb-2 bg-primary-subtle text-emphasis-primary rounded-2">
+                    <div class="row">
+                        <div class="col ">
+                            <p class="fw-semibold">Workout anywhere and anytime!</p>
+                            <p class="fw-light">
+                                1) Select the workout plan you would like to attend
+                            </p>
+                            <p class="fw-light">
+                                2) Follow along with the workout.
+                            </p>
+                            <p class="fw-light">
+                                3) After you finish, let us know what you think!
+                            </p>
+                            <p class="fw-lighter">Try our <a href="explore.html" > most popular class! </a> </p>
+                        </div>
+                    </div>
+                </div>
+                <br/>
+            </div>
+        </div>
+        </div>
+    </div>
+    <br/>
+
+            <br/>
+        <div class="col">
+
+            <div class="h4 pb-2 mb-4 border-bottom border-dark text-center">
+                Customize your workout plan: 
+            </div>
+            <br/>
+        
+            <select id="selectTime" class="form-select form-select-lg mb-3" aria-label=".form-select-lg">
+                <option selected>Time</option>
+                <option value="15">15 mins</option>
+                <option value="30">30 mins</option>
+                <option value="45">45 mins</option>
+            </select>
+        
+            <select id="selectLevel" class="form-select form-select-lg mb-3" aria-label=".form-select-lg">
+                <option selected>level</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+        
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <!-- <button type="button" class="btn btn-primary">Search</button> -->
+                <a id="plans-button" class="btn btn-primary"  role="button">Search</a>
+                <a id="clear-button" class="btn btn-primary hidden"  role="button">clear</a>
+            </div>
+            <br/>
+            <div id="output-div" class="h3 pb-2 mb-4 border border-dark text-center fw-light"></div>
+        </div>
+    </div>
+
+        
+    </body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
